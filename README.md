@@ -37,7 +37,7 @@
 # インストール方法
 ```
 git clone git@github.com:Takeshi-Akimitsu/Motor_RaspberryPi.git
-cd mymotor
+cd Motor_RaspberryPi
 make
 sudo insmod mymotor.ko  
 sudo chmod 666 /dev/mymotor0  
@@ -46,26 +46,36 @@ sudo chmod 666 /dev/mymotor0
 # 実行
 右:正転　左:正転　(前進)
 ```
-
+echo f > /dev/mymotor0 
 ```
 
 右:逆転　左:逆転　(後進)
 ```
-
+echo b > /dev/mymotor0 
 ```
 
 右:正転　左:逆転　(右回転)
 ```
-
+echo r > /dev/mymotor0 
 ```
-
 
 右:逆転　左:正転　(左回転)
 ```
-
+echo l > /dev/mymotor0 
 ```
 
 右:停止　左:停止　(ブレーキ)
 ```
-
+echo s > /dev/mymotor0 
 ```
+
+# アンインストール
+```
+sudo rmmod mymotor 
+```
+
+# 実行結果
+
+
+# 参考
+
