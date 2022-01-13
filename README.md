@@ -9,4 +9,8 @@
 |モータドライバ|東芝　TB6643KQ ×2|
 
 # 配線
-![回路図](https://user-images.githubusercontent.com/97353827/149394888-573bf646-a4a5-422c-919d-e4ea7fcf7bce.jpg)
+画像
+
+<右モータ>
+TB6643KQの1番ピンにGPIO23を繋ぐ
+TB6643KQの1番ピンにGPIO24を繋ぐ
