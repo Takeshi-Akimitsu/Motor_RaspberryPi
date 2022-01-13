@@ -25,16 +25,16 @@ static ssize_t motor_write(struct file* filp, const char* buf, size_t count, lof
 		if(c == 'f'){
 			gpio_base[7] = 1 << 25;
 			gpio_base[10] = 1 << 27;
-	                gpio_base[10] = 1 << 23; 
-			gpio_base[7] = 1 << 24;
-
+	                gpio_base[7] = 1 << 23; 
+			gpio_base[10] = 1 << 24;
+				
 		}
 
 		else if(c == 'b'){
 			gpio_base[10] = 1 << 25;
 			gpio_base[7] = 1 << 27;
-			gpio_base[7] = 1 << 23; 
-			gpio_base[10] = 1 << 24; 
+			gpio_base[10] = 1 << 23; 
+			gpio_base[7] = 1 << 24; 
 
 		}
 
@@ -46,19 +46,19 @@ static ssize_t motor_write(struct file* filp, const char* buf, size_t count, lof
 
 		}              
 
-		else if(c == 'l'){ 
+		else if(c == 'r'){ 
 			gpio_base[10] = 1 << 25;
 			gpio_base[7] = 1 << 27;
-			gpio_base[10] = 1 << 23;
-		        gpio_base[7] = 1 << 24; 	
+			gpio_base[7] = 1 << 23;
+		        gpio_base[10] = 1 << 24; 	
 		}    
 
 
-		else if(c == 'r'){             
+		else if(c == 'l'){             
 			gpio_base[7] = 1 << 25;
 			gpio_base[10] = 1 << 27;
-			gpio_base[7] = 1 << 23;
-		        gpio_base[10] = 1 << 24; 	
+			gpio_base[10] = 1 << 23;
+		        gpio_base[7] = 1 << 24; 	
 		}    
 		return 1;
 }
