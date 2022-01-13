@@ -4,7 +4,6 @@
 #include<linux/device.h> 
 #include<linux/uaccess.h>
 #include<linux/io.h> 
-#include<linux/delay.h>
 
 MODULE_AUTHOR("Takeshi Akimitsu");
 MODULE_DESCRIPTION("driver for motor control"); 
