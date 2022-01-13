@@ -34,5 +34,6 @@
 
 [TBTB6643KQデータシート](http://www.kyohritsu.jp/eclib/OTHER/DATASHEET/TOSHIBA/tb6643kq.pdf)
 
-#使用方法
-`git clone git@github.com:Takeshi-Akimitsu/Motor_RaspberryPi.git`
+# 使用方法
+`git clone git@github.com:Takeshi-Akimitsu/Motor_RaspberryPi.git  
+`
