@@ -68,3 +68,14 @@ echo l > /dev/mymotor0
 ```
 echo s > /dev/mymotor0 
 ```
+
+# アンインストール
+```
+sudo rmmod mymotor 
+```
+
+# 実行結果
+
+
+# 参考
+
