@@ -38,4 +38,4 @@
 `~~~git clone git@github.com:Takeshi-Akimitsu/Motor_RaspberryPi.git  
 make  
 sudo insmod mymotor.ko  
-sudo chmod 666 /dev/mymotor0  ~~`
+sudo chmod 666 /dev/mymotor0  ~~~`
