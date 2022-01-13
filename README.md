@@ -33,3 +33,6 @@
 
 
 [TBTB6643KQデータシート](http://www.kyohritsu.jp/eclib/OTHER/DATASHEET/TOSHIBA/tb6643kq.pdf)
+
+#使用方法
+
