@@ -34,10 +34,38 @@
 
 [TBTB6643KQデータシート](http://www.kyohritsu.jp/eclib/OTHER/DATASHEET/TOSHIBA/tb6643kq.pdf)
 
-# 使用方法
+# インストール方法
 ```
 git clone git@github.com:Takeshi-Akimitsu/Motor_RaspberryPi.git
+cd mymotor
 make
 sudo insmod mymotor.ko  
 sudo chmod 666 /dev/mymotor0  
+```
+
+# 実行
+右:正転　左:正転　(前進)
+```
+
+```
+
+右:逆転　左:逆転　(後進)
+```
+
+```
+
+右:正転　左:逆転　(右回転)
+```
+
+```
+
+
+右:逆転　左:正転　(左回転)
+```
+
+```
+
+右:停止　左:停止　(ブレーキ)
+```
+
 ```
