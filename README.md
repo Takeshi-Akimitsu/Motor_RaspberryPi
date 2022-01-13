@@ -29,7 +29,7 @@
 　6.TB6643KQの7番ピンに電源の+側を繋ぐ
 
 
-　この2つの回路を電源に対し並列で接続し、電圧12V、電流0.25Aを印加した
+　この2つの回路を電源に対し並列で接続し、電圧12V、電流0.Aを印加した
 
 
 [TBTB6643KQデータシート](http://www.kyohritsu.jp/eclib/OTHER/DATASHEET/TOSHIBA/tb6643kq.pdf)
