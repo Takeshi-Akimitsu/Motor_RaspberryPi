@@ -30,4 +30,4 @@
 
 この2つの回路を電源に対し並列で接続した
 
-
+[TBTB6643KQデータシート] http://www.kyohritsu.jp/eclib/OTHER/DATASHEET/TOSHIBA/tb6643kq.pdf
