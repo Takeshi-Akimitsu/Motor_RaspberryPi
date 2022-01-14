@@ -82,3 +82,6 @@ https://youtu.be/cU3D8GxwP2c
 
 https://github.com/MibuchiYuta/Control_DCmotor_RaspberryPi
 
+# 謝辞
+このデバイスドライバは[三渕優太さん](https://github.com/MibuchiYuta/Control_DCmotor_RaspberryPi
+)のコードを参考に製作しました。誠にありがとうございます。
