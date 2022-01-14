@@ -75,7 +75,8 @@ sudo rmmod mymotor
 ```
 
 # 実行結果
-
+下記のリンクよりこのデバイスドライバの動作が確認できる
+https://youtu.be/cU3D8GxwP2c
 
 # 参考
 
