@@ -4,7 +4,7 @@
 # 動作環境
 |OS|Ubuntu Server 20.04.3 LTS|
 |---|---|
-|ハードウェア|Raspberry Pi 3|
+|ハードウェア|Raspberry Pi 3 ModelB|
 |モータ|タミヤ　3速クランクギヤーボックスセット ×2|
 |モータドライバ|東芝　TB6643KQ ×2|
 
@@ -16,7 +16,7 @@
 　1.TB6643KQの1番ピンとGPIO23を繋ぐ  
 　2.TB6643KQの2番ピンとGPIO24を繋ぐ  
 　3.TB6643KQの4番ピンとGPIO GNDを繋ぐ  
-　4.TB6643KQの3,5番ピンと右モータの端子をそれぞれ繋ぐ  
+　4.TB6643KQの3,5番ピンと左モータの端子をそれぞれ繋ぐ  
 　5.3で繋いだGNDと電源の-側に繋ぐ  
 　6.TB6643KQの7番ピンと電源の+側を繋ぐ  
 
@@ -30,10 +30,7 @@
 
 
 　この2つの回路を電源に対し並列で接続し、電圧12V、電流0.7Aを印加した
-
-
-[TBTB6643KQデータシート](http://www.kyohritsu.jp/eclib/OTHER/DATASHEET/TOSHIBA/tb6643kq.pdf)
-
+ 
 # インストール方法
 ```
 git clone git@github.com:Takeshi-Akimitsu/Motor_RaspberryPi.git
@@ -75,7 +72,13 @@ sudo rmmod mymotor
 ```
 
 # 実行結果
-
+下記のリンクよりこのデバイスドライバの動作が確認できる  
+https://youtu.be/cU3D8GxwP2c
 
 # 参考
+[Raspberry Pi 3 ModelB](https://datasheets.raspberrypi.com/rpi3/raspberry-pi-3-b-reduced-schematics.pdf)  
+
+[TBTB6643KQデータシート](http://www.kyohritsu.jp/eclib/OTHER/DATASHEET/TOSHIBA/tb6643kq.pdf)
+
+https://github.com/MibuchiYuta/Control_DCmotor_RaspberryPi
 
