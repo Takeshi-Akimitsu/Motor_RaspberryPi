@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-3.0
 obj-m := mymotor.o
 
 mymotor.ko: mymotor.c
