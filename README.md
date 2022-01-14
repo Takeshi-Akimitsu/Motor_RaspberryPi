@@ -80,3 +80,5 @@ https://youtu.be/cU3D8GxwP2c
 
 [TBTB6643KQデータシート](http://www.kyohritsu.jp/eclib/OTHER/DATASHEET/TOSHIBA/tb6643kq.pdf)
 
+https://github.com/MibuchiYuta/Control_DCmotor_RaspberryPi
+
